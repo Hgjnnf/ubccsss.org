@@ -26,7 +26,7 @@ jobs:
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
-          prettier_version: "2.8.4"
+          prettier_version: "3.0.3"
           prettier_options: --write **/*.+(js|html|css|json|md|yaml|yml)
           prettier_plugins: "prettier-plugin-go-template"
           github_token: ${{ secrets.GH_TOKEN }}
