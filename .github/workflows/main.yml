@@ -28,6 +28,6 @@ jobs:
         with:
           prettier_version: "3.0.3"
           prettier_options: --write **/*.+(js|html|css|json|md|yaml|yml)
-          prettier_plugins: "@prettier/prettier-plugin-go-template"
+          prettier_plugins: "prettier-plugin-go-template"
           github_token: ${{ secrets.GH_TOKEN }}
           only_changed: True
